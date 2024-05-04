@@ -79,10 +79,8 @@ function takeCommand(message) {
     }else if(message.includes('Russian')){
         window.open("https://unsplash.com/s/photos/russian-girl", "_blank");
         speak("Russian girl ek mast maal h jise india ke log six thousand mein buy krte hai sex karne ke liye .");
-    }else if(message.includes('khushi kon hai')){
-        speak("khushi ek bewafa larki hai jisne abhishek ko dokha diya hai , abhishek ke 7 saal ke pyaar ko chakna chur kr diya");
-    }else if(message.includes('abhishek')){
-        speak("abhishek ek good larka h , jisko khushi name ke lrki ne dhokha diya or uske 7 saal ke pyaar ko thukra diya. khushi bewafa hai khushi bewafa hai");
+    }else if(message.includes('tushar pathak')){
+        speak("Tushar Pathak is a YMCA topper who hacked NASA and after that he hacked Google. The first person in the world who has not masturbated till now, his name is Tushar Pathak, I salute this man");
     }else {
         window.open(`https://www.google.com/search?q=${message.replace(" ", "+")}`, "_blank");
         const finalText = "I found some information for " + message + " on Google";
