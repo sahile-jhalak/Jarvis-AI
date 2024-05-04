@@ -77,8 +77,8 @@ function takeCommand(message) {
         const finalText = "Opening Calculator";
         speak(finalText);
     }else if(message.includes('Russian')){
-        speak("Russian girl rate in goa ");
-        window.open("https://www.quora.com/How-do-I-get-Russian-girls-in-Goa", "_blank");
+        window.open("https://unsplash.com/s/photos/russian-girl", "_blank");
+        speak("Russian girl ek mast maal h jise india ke log six thousand mein buy krte hai sex karne ke liye .");
     }else if(message.includes('khushi kon hai')){
         speak("khushi ek bewafa larki hai jisne abhishek ko dokha diya hai , abhishek ke 7 saal ke pyaar ko chakna chur kr diya");
     }else if(message.includes('abhishek')){
