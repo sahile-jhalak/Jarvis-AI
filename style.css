@@ -1,3 +1,11 @@
+@media (max-width: 768px) {
+    /* Styles for smaller screens (e.g., tablets) */
+}
+
+@media (max-width: 480px) {
+    /* Styles for even smaller screens (e.g., smartphones) */
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
 * {
     margin: 0;
