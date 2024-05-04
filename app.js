@@ -49,6 +49,7 @@ function takeCommand(message) {
     } else if (message.includes("open google")) {
         window.open("https://google.com", "_blank");
         speak("Opening Google...");
+    
     } else if (message.includes("open youtube")) {
         window.open("https://www.youtube.com/", "_blank");
         speak("Opening Youtube...");
@@ -75,7 +76,14 @@ function takeCommand(message) {
         window.open('Calculator:///');
         const finalText = "Opening Calculator";
         speak(finalText);
-    } else {
+    }else if(message.includes('Russian')){
+        speak("Russian girl rate in goa ");
+        window.open("https://www.quora.com/How-do-I-get-Russian-girls-in-Goa", "_blank");
+    }else if(message.includes('khushi kon hai')){
+        speak("khushi ek bewafa larki hai jisne abhishek ko dokha diya hai , abhishek ke 7 saal ke pyaar ko chakna chur kr diya");
+    }else if(message.includes('abhishek')){
+        speak("abhishek ek good larka h , jisko khushi name ke lrki ne dhokha diya or uske 7 saal ke pyaar ko thukra diya. khushi bewafa hai khushi bewafa hai");
+    }else {
         window.open(`https://www.google.com/search?q=${message.replace(" ", "+")}`, "_blank");
         const finalText = "I found some information for " + message + " on Google";
         speak(finalText);
