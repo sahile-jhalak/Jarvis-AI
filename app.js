@@ -80,6 +80,8 @@ function takeCommand(message) {
         speak("Russian girl ek mast maal h jise india ke log six thousand mein buy krte hai sex karne ke liye .");
     }else if(message.includes('tushar pathak')){
         speak("Tushar Pathak is a YMCA topper who hacked NASA and after that he hacked Google. The first person in the world who has not masturbated till now, his name is Tushar Pathak, I salute this man");
+    }else if(message.includes('Rohan')){
+        speak("Rohan is a gay. rohan father name is sahil ansari");
     }else {
         window.open(`https://www.google.com/search?q=${message.replace(" ", "+")}`, "_blank");
         const finalText = "I found some information for " + message + " on Google";
